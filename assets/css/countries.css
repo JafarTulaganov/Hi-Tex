@@ -1,0 +1,192 @@
+svg {
+  z-index: 2;
+}
+.modals {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.info {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  backdrop-filter: blur(22px);
+  border-radius: 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-flex;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  transition: 0.4s;
+}
+.flag img,
+.flag {
+  width: 80px;
+  height: 48px;
+  border-radius: 4px;
+}
+.country {
+  margin: 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  font-family: var(--decor);
+  text-transform: uppercase;
+  color: var(--blue);
+}
+.info {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.info.show {
+  opacity: 1;
+  visibility: visible;
+}
+#russia-flag {
+  top: 8%;
+  right: 20%;
+  left: auto;
+  z-index: 999;
+}
+#china-flag {
+  top: 25%;
+  right: 19%;
+  left: auto;
+  z-index: 999;
+}
+#uzbekistan-flag {
+  top: 20%;
+  right: 25%;
+  left: auto;
+  z-index: 999;
+}
+#iran-flag {
+  top: 25%;
+  right: 30%;
+  left: auto;
+  z-index: 999;
+}
+#iraq-flag {
+  top: 25%;
+  right: 33%;
+  left: auto;
+  z-index: 999;
+}
+#syria-flag {
+  top: 25%;
+  right: 35%;
+  left: auto;
+  z-index: 999;
+}
+#turkey-flag {
+  top: 22%;
+  right: 37%;
+  left: auto;
+  z-index: 999;
+}
+#egypt-flag {
+  top: 29%;
+  right: 37%;
+  left: auto;
+  z-index: 999;
+}
+#ukraine-flag {
+  top: 15%;
+  right: 42%;
+  left: auto;
+  z-index: 999;
+}
+#byelarus-flag {
+  top: 12%;
+  right: 42%;
+  left: auto;
+  z-index: 999;
+}
+#italy-flag {
+  top: 18%;
+  right: 45%;
+  left: auto;
+  z-index: 999;
+}
+#tunisia-flag {
+  top: 25%;
+  right: 45%;
+  left: auto;
+  z-index: 999;
+}
+#portugal-flag {
+  top: 20%;
+  right: 50%;
+  left: auto;
+  z-index: 999;
+}
+#germany-flag {
+  top: 11%;
+  right: 42%;
+  left: auto;
+  z-index: 999;
+}
+#kazakhstan-flag {
+  top: 12%;
+  right: 28%;
+  left: auto;
+  z-index: 999;
+}
+#kyrgyzstan-flag {
+  top: 19%;
+  right: 25%;
+  left: auto;
+  z-index: 999;
+}
+#japan-flag {
+  top: 22%;
+  right: 10%;
+  left: auto;
+  z-index: 999;
+}
+#germany-flag .country,
+#tunisia-flag .country,
+#portugal-flag .country,
+#italy-flag .country,
+#ukraine-flag .country,
+#byelarus-flag .country,
+#japan-flag .country,
+#egypt-flag .country{
+  color: white;
+}
+@media screen and (max-width: 1600px) {
+  #china-flag {
+    top: 25%;
+    right: 10%;
+    left: auto;
+    z-index: 999;
+  }
+  #uzbekistan-flag {
+    top: 20%;
+    right: 20%;
+    left: auto;
+    z-index: 999;
+  }
+  #russia-flag {
+    top: 5%;
+    right: 20%;
+    left: auto;
+    z-index: 999;
+  }
+  #japan-flag{
+    right: 1%;
+  }
+  #kazakhstan-flag {
+    right: 22%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .modals {
+    display: none;
+  }
+}
